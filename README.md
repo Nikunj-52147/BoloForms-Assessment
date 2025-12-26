@@ -164,3 +164,8 @@ The frontend will be running at <http://localhost:3000>.
 - Signature aspect ratio is preserved while fitting within the box.
 - React-RND is used for drag, resize, and anchoring fields.
 - PDF-Lib handles PDF manipulation and embedding images.
+
+## **Live Sites**
+
+#### Frontend - https://bolo-forms-assessment.vercel.app/
+#### Backend - https://boloforms-assessment-2.onrender.com

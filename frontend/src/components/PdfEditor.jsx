@@ -82,7 +82,7 @@ export default function PdfEditor() {
         };
 
         // 4️. Send to backend
-        const res = await fetch(`http://localhost:4000/sign-pdf`, {
+        const res = await fetch(`https://boloforms-assessment-2.onrender.com`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload),
