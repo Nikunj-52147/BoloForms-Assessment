@@ -53,26 +53,19 @@ POST /sign-pdf
 **Payload:**
 ```
 {
-
-"pdfBase64": "&lt;PDF file as base64&gt;",
-
-"signature": "&lt;Signature Image Base64&gt;",
-
-"coordinates": {
-
-"xPct": 0.42,
-
-"yPct": 0.31,
-
-"wPct": 0.25,
-
-"hPct": 0.08,
-
-"page": 1
-
+  "pdfBase64": "<PDF file as base64>",
+  "signature": "<Signature Image Base64>",
+  "coordinates": {
+    "xPct": 0.42,
+    "yPct": 0.31,
+    "wPct": 0.25,
+    "hPct": 0.08,
+    "page": 1
+  }
 }
+
 ```
-}
+
 
 **Processing:**
 
@@ -149,16 +142,12 @@ The frontend will be running at <http://localhost:3000>.
 - Store documents in a collection named pdf_hashes with fields:
 ```
 {
-
-"pdfId": "&lt;unique-pdf-id&gt;",
-
-"originalHash": "&lt;SHA-256 hash&gt;",
-
-"signedHash": "&lt;SHA-256 hash&gt;",
-
-"createdAt": "&lt;timestamp&gt;"
-
+  "pdfId": "<unique-pdf-id>",
+  "originalHash": "<SHA-256 hash>",
+  "signedHash": "<SHA-256 hash>",
+  "createdAt": "<timestamp>"
 }
+
 ```
 ## **Usage**
 
